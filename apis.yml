@@ -1,8 +1,18 @@
 aid: talos
 name: Talos
-description: Talos is a company surfaced as a portfolio company of a16z, initialized-capital and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Talos (Talos Global, Inc.) is the institutional platform to trade and manage
+  digital assets across the full investment lifecycle. Founded in 2018 and
+  headquartered in New York, NY, Talos unifies an order/execution management
+  system (OEMS), a portfolio management system (PMS), and institutional market
+  data on a single platform — covering price discovery, execution, portfolio
+  construction, risk management, treasury, and settlement. Institutions such as
+  hedge funds, banks, broker-dealers, asset managers, ETF issuers, and neobanks
+  reach global liquidity through the Talos Network of 100+ providers (exchanges,
+  OTC desks, prime brokers, custodians, DeFi protocols, and FX providers) and
+  connect programmatically over FIX, REST, and WebSocket APIs. Developer
+  documentation is gated behind client authentication (Auth0); this profile was
+  enriched from Talos's public surface (llms.txt, GitHub org, and trust center).
 url: https://raw.githubusercontent.com/api-evangelist/talos/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,17 +21,79 @@ x-backed-by:
 - initialized-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Digital Assets
+- Cryptocurrency
+- Trading
+- OEMS
+- Institutional Finance
+- Market Data
+- FIX
+- WebSocket
+- Fintech
+- Crypto Infrastructure
+- Portfolio Management
+image: https://cdn.prod.website-files.com/637e4cd92c6f22a30d5225fc/655c8aca30ba8495fd9b5931_Talos-3d-OG-image.jpg
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 6
+  pass: local-v1
 common:
+- type: DomainSecurity
+  url: security/talos-domain-security.yml
 - type: Website
-  url: https://talos.com/
+  url: https://www.talos.com/
+- type: DeveloperPortal
+  url: https://docs.talostrading.com/
+- type: Documentation
+  url: https://docs.talostrading.com/
+- type: Blog
+  url: https://www.talos.com/insights/
+- type: GitHubOrganization
+  url: https://github.com/talostrading
+- type: SignUp
+  url: https://www.talos.com/request-a-demo
+- type: Support
+  url: https://www.talos.com/contact
+- type: TermsOfService
+  url: https://www.talos.com/legals/terms
+- type: PrivacyPolicy
+  url: https://www.talos.com/legals/privacy
+- type: TrustCenter
+  url: https://trust.talos.com/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/talos-trading
+- type: Twitter
+  url: https://twitter.com/talostrading
+- type: YouTube
+  url: https://www.youtube.com/@talostrading
+- type: LLMsTxt
+  url: llms/talos-llms.txt
+- type: Packages
+  url: packages/talos-packages.yml
+- type: WellKnown
+  url: well-known/talos-well-known.yml
+- type: Conformance
+  url: conformance/talos-conformance.yml

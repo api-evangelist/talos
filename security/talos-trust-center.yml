@@ -1,0 +1,15 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+url: https://trust.talos.com/
+platform: Vanta
+certifications: []
+notes: >-
+  Verified live Talos Trust Center hosted on Vanta (page title "Talos Trust
+  Center"). The certification list is loaded dynamically by the Vanta widget and
+  is not present in the static HTML, so specific named certifications (e.g. SOC 2
+  / ISO 27001) could not be enumerated from a public probe and are left empty
+  rather than fabricated. No `Compliance` pointer is emitted for the same reason.
+evidence:
+- source: https://trust.talos.com/
+  keywords: [trust center, vanta]

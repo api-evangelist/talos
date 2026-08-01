@@ -1,0 +1,21 @@
+generated: '2026-07-21'
+method: searched
+source: https://github.com/talostrading
+notes: >-
+  Talos does not publish a public API client SDK — the developer documentation
+  and sample code at https://docs.talostrading.com/ are gated behind client
+  authentication (Auth0), and integration is over FIX / REST / WebSocket. The
+  one first-party open-source library published by the Talos GitHub org (sonic)
+  is a general-purpose Go network/I-O library used to build their systems, not a
+  client SDK for the Talos API, so no `SDKs` pointer is emitted.
+packages:
+- language: go
+  registry: pkg.go.dev
+  name: github.com/talostrading/sonic
+  url: https://github.com/talostrading/sonic
+  install: go get github.com/talostrading/sonic
+  official: true
+  is_api_sdk: false
+  description: >-
+    Sonic is a Go library for network and I/O programming that provides
+    developers with a consistent asynchronous model, open-sourced by Talos.

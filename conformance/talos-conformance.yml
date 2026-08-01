@@ -1,0 +1,32 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.talos.com/llms.txt
+notes: >-
+  Standards asserted from Talos's own public description of its connectivity and
+  platform. The API reference is client-gated, so protocol conformance is stated
+  at the connectivity level (FIX / REST / WebSocket) rather than derived from a
+  public OpenAPI. No published third-party certification (SOC 2 / ISO 27001 /
+  etc.) could be enumerated from the public trust center (Vanta, dynamic), so no
+  `Compliance` pointer is emitted.
+standards:
+- id: fix-protocol
+  conforms: true
+  evidence: >-
+    Talos advertises FIX connectivity for institutional order flow
+    ("FIX/REST/WebSocket connectivity", talos.com/llms.txt).
+- id: rest
+  conforms: true
+  evidence: REST API connectivity advertised (talos.com/llms.txt).
+- id: websocket
+  conforms: true
+  evidence: WebSocket API connectivity advertised (talos.com/llms.txt).
+- id: oauth2
+  conforms: unknown
+  evidence: >-
+    Developer portal authenticates via Auth0 (talostrading.auth0.com); API
+    authorization model is not publicly documented.
+- id: datonomy
+  conforms: true
+  evidence: >-
+    Talos data products implement the Datonomy digital-asset classification
+    standard (talos.com/our-solutions/data/datonomy).

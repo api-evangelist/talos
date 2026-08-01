@@ -1,0 +1,96 @@
+# Talos — Institutional Digital Asset Platform
+
+> Talos is the institutional platform to trade and manage digital assets across the full investment lifecycle. Trusted by hedge funds, banks, broker-dealers, asset managers, ETF issuers, and neobanks, Talos unifies OEMS, PMS, and data on a single platform — covering price discovery, execution, portfolio construction, risk management, treasury, and settlement.
+
+Institutions access global liquidity through the Talos Network: 100+ providers including exchanges, OTC desks, prime brokers, custodians, DeFi protocols, FX providers, and TradFi OEMS worldwide.
+
+Founded: 2018
+Headquarters: New York, NY
+Legal name: Talos Global, Inc.
+Website: https://www.talos.com
+
+## Platform capabilities
+- Trade: advanced execution algos, smart order routing, multi-dealer pricing, options trading, FIX/REST/WebSocket connectivity
+- Manage: portfolio construction, risk management, treasury, settlement, post-trade analytics, OEMS and PMS unification
+- Access: 100+ providers via the Talos Network, white-label infrastructure for brokers and neobanks
+- Data: institutional market data, on-chain data, reference rates, indexes, Datonomy classification — powered by Coin Metrics
+
+## Products
+- Trading Platform: https://www.talos.com/our-solutions/trading
+- White Label: https://www.talos.com/our-solutions/white-label
+- Portfolio Construction: https://www.talos.com/our-solutions/portfolio-construction
+- Portfolio & Risk Management: https://www.talos.com/our-solutions/portfolio-and-risk-management
+- Treasury & Settlement: https://www.talos.com/our-solutions/treasury-and-settlement
+- Post-Trade Analytics: https://www.talos.com/our-solutions/analytics
+- Data Overview: https://www.talos.com/our-solutions/data/overview
+- Market Data Feed: https://www.talos.com/our-solutions/data/market-data-feed
+- Market Data Pro: https://www.talos.com/our-solutions/data/market-data-pro
+- On-Chain Data (Atlas): https://www.talos.com/our-solutions/data/atlas
+- Network Data Pro: https://www.talos.com/our-solutions/data/network-data-pro
+- Indexes: https://www.talos.com/our-solutions/data/indexes
+- Prices: https://www.talos.com/our-solutions/data/prices
+- Datonomy: https://www.talos.com/our-solutions/data/datonomy
+- Security Master: https://www.talos.com/our-solutions/data/security-master
+
+## Client types
+- Hedge Funds: https://www.talos.com/clients/hedge-funds
+- Asset Managers: https://www.talos.com/clients/asset-managers
+- Banks: https://www.talos.com/clients/banks
+- Broker-Dealers: https://www.talos.com/clients/broker-dealers
+- ETF Issuers: https://www.talos.com/clients/etf-issuers
+- OTC Desks: https://www.talos.com/clients/otc-desks
+- Crypto Funds: https://www.talos.com/clients/crypto-funds
+- Proprietary Trading Firms: https://www.talos.com/clients/proprietary-trading-firms
+- Custodians: https://www.talos.com/clients/custodians
+- Retail Investment Platforms: https://www.talos.com/clients/retail-investment-platforms
+- Payment Service Providers: https://www.talos.com/clients/payment-service-providers
+- Token Holders: https://www.talos.com/clients/token-holders
+
+## Provider Network (100+ providers)
+- https://www.talos.com/provider-network
+
+## Dashboards
+- Digital Asset ETP Dashboard: https://www.talos.com/dashboards/digital-asset-etf-etp-landscape
+
+## Insights & Research
+- https://www.talos.com/insights/
+- https://www.talos.com/insights/*
+
+## Company
+- Why Talos: https://www.talos.com/about/why-talos
+- The Talos Story: https://www.talos.com/about/the-talos-story
+- Leadership Team: https://www.talos.com/about/the-leadership-team
+- Open Roles: https://www.talos.com/working/open-roles
+- Contact: https://www.talos.com/contact
+- Request a Demo: https://www.talos.com/request-a-demo
+- FAQs: https://www.talos.com/faqs
+
+## AI crawler permissions
+User-Agent: *
+Allow: /
+
+User-Agent: GPTBot
+Allow: /
+
+User-Agent: Claude-Web
+Allow: /
+
+User-Agent: Anthropic-LLM
+Allow: /
+
+User-Agent: PerplexityBot
+Allow: /
+
+User-Agent: Google-Extended
+Allow: /
+
+User-Agent: MetaAI
+Allow: /
+
+User-Agent: OAI-SearchBot
+Allow: /
+
+Citation-Policy: allow-with-attribution
+Training-Window: 365d
+License: CC-BY-4.0
+Attribution: https://www.talos.com

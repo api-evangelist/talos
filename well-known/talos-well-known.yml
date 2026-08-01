@@ -1,0 +1,20 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.talos.com
+host: https://www.talos.com
+notes: >-
+  No /.well-known/ discovery surface is published on the marketing host. The
+  developer documentation and API reference live at https://docs.talostrading.com/
+  behind Auth0 authentication, so any authenticated discovery surface was not
+  reachable from a public probe.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
