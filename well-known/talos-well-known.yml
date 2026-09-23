@@ -2,19 +2,24 @@ generated: '2026-07-21'
 method: searched
 source: https://www.talos.com
 host: https://www.talos.com
-notes: >-
-  No /.well-known/ discovery surface is published on the marketing host. The
-  developer documentation and API reference live at https://docs.talostrading.com/
-  behind Auth0 authentication, so any authenticated discovery surface was not
-  reachable from a public probe.
-documents:
-- path: /.well-known/security.txt
-  status: 404
-- path: /.well-known/openid-configuration
-  status: 404
-- path: /.well-known/oauth-authorization-server
-  status: 404
-- path: /.well-known/api-catalog
-  status: 404
-- path: /.well-known/ai-plugin.json
-  status: 404
+notes: No /.well-known/ discovery surface is published on the marketing host. The developer documentation
+  and API reference live at https://docs.talostrading.com/ behind Auth0 authentication, so any authenticated
+  discovery surface was not reachable from a public probe.
+hosts:
+- host: https://www.talos.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+x-shape-fix:
+  converted: '2026-08-20'
+  from: documents
+  note: Rewritten into hosts[] -> documents[], the only shape well_known_docs() in score.rb reads. A served
+    .well-known surface recorded in any other shape scores as absent.
