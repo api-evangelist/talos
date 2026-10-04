@@ -58,7 +58,7 @@ tags:
 - WebSocket
 - Fintech
 - Crypto Infrastructure
-- Portfolio-Management
+- Portfolio Management
 tags_raw:
 - Company
 - Digital Assets
@@ -72,6 +72,7 @@ tags_raw:
 - Fintech
 - Crypto Infrastructure
 - Portfolio Management
+- Portfolio-Management
 image: https://cdn.prod.website-files.com/637e4cd92c6f22a30d5225fc/655c8aca30ba8495fd9b5931_Talos-3d-OG-image.jpg
 apis: []
 maintainers:
